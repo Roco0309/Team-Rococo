@@ -1,16 +1,33 @@
+using UnityEditor;
+
 using UnityEngine;
 
-public class PlayerData : MonoBehaviour
+public class PlayerData
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    static private PlayerData pInstance;
+    public const int vFPS = 60;
+    static public PlayerData I
     {
-        
+        get
+        {
+            if (pInstance != null)
+            {
+                return pInstance;
+            }
+            pInstance = new PlayerData();
+            return pInstance;
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    public void QuitProcess(string tString)
     {
-        
+        #if UNITY_EDITOR
+                Debug.LogError(tString);
+                EditorApplication.ExecuteMenuItem("Edit/Play");
+        #else
+                Application.Quit();
+        #endif
     }
+
+
 }
