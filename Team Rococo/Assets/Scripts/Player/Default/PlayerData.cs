@@ -21,13 +21,21 @@ public class PlayerData
 
     public void QuitProcess(string tString)
     {
-        #if UNITY_EDITOR
-                Debug.LogError(tString);
-                EditorApplication.ExecuteMenuItem("Edit/Play");
-        #else
+#if UNITY_EDITOR
+        Debug.LogError(tString);
+        EditorApplication.ExecuteMenuItem("Edit/Play");
+#else
                 Application.Quit();
-        #endif
+#endif
     }
 
+    public struct PLAYER_INFO
+    {
+        public int vNodPoint;
+        public int vUsingNodPoint;
+        public float vDefaultATK;
+        public float vFinalATK;
+
+    };
 
 }
