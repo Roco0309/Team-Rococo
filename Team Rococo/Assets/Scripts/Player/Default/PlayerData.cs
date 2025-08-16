@@ -31,11 +31,17 @@ public class PlayerData
 
     public struct PLAYER_INFO
     {
+        public GameObject gPlayer;
+        public Rigidbody rPlayer;
+        public PlayerController playerController;
+
+        public float vMoveSpeed;
+        public float vJumpPower;
+
         public int vNodPoint;
         public int vUsingNodPoint;
         public float vDefaultATK;
         public float vFinalATK;
-
     };
 
 }
