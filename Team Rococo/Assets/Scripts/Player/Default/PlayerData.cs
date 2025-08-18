@@ -1,6 +1,8 @@
-using UnityEditor;
-
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
+using UnityEditor;
+using UnityEngine.UI;
 
 public class PlayerData
 {
@@ -37,11 +39,22 @@ public class PlayerData
 
         public float vMoveSpeed;
         public float vJumpPower;
+        public float vDashCool;
+        public const float vDashSpeed = 20.0f;
+        public float vGravityScale;
 
+        public int vPlayerLevel;
+        public int v;
         public int vNodPoint;
         public int vUsingNodPoint;
+
         public float vDefaultATK;
         public float vFinalATK;
+        public float vDefaultDefense;
+        public float vFinalDefense;
     };
+    public PLAYER_INFO sPlayerInfo;
+
+
 
 }
