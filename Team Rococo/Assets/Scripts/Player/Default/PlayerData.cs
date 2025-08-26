@@ -55,6 +55,10 @@ public class PlayerData
     };
     public PLAYER_INFO sPlayerInfo;
 
-
+    public struct TERRAIN_INFO
+    {
+        public GameObject gTerrain;
+    };
+    public TERRAIN_INFO sTerrainInfo;
 
 }
