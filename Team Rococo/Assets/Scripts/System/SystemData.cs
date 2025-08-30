@@ -4,11 +4,11 @@ using UnityEngine;
 using UnityEditor;
 using UnityEngine.UI;
 
-public class PlayerData
+public class SystemData
 {
-    static private PlayerData pInstance;
+    static private SystemData pInstance;
     public const int vFPS = 60;
-    static public PlayerData I
+    static public SystemData I
     {
         get
         {
@@ -16,7 +16,7 @@ public class PlayerData
             {
                 return pInstance;
             }
-            pInstance = new PlayerData();
+            pInstance = new SystemData();
             return pInstance;
         }
     }
