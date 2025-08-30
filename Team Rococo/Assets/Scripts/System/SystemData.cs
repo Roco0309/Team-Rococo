@@ -40,7 +40,7 @@ public class SystemData
         public float vMoveSpeed;
         public float vJumpPower;
         public float vDashCool;
-        public const float vDashSpeed = 20.0f;
+        public float vDashSpeed;
         public float vGravityScale;
 
         public int vPlayerLevel;
