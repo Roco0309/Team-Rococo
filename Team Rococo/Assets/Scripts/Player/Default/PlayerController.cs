@@ -4,23 +4,22 @@ using UnityEngine.InputSystem.XR;
 public class PlayerController : MonoBehaviour
 {
     GameObject gPlayer;
-    Rigidbody cRigidBody;
     CharacterController cCharacterController;
+    RaycastHit rIsGrounded;
 
     Vector3 vVelocity = new Vector3(0, 0, 0);
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        cRigidBody = GetComponent<Rigidbody>();
         cCharacterController = GetComponent<CharacterController>();
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
-        float vInputX = Input.GetAxis("Horizontal");
-        float vInputZ = Input.GetAxis("Vertical");
+        float vInputX = Input.GetAxisRaw("Horizontal");
+        float vInputZ = Input.GetAxisRaw("Vertical");
 
         Vector3 vMoveDirection = new Vector3(vInputX, 0, vInputZ);
         
@@ -43,5 +42,11 @@ public class PlayerController : MonoBehaviour
         }
         vVelocity.y += Physics.gravity.y * Time.deltaTime;
         cCharacterController.Move(vVelocity * Time.deltaTime);
+    }
+
+    bool IsGrounded()
+    {
+        float distanceToGround = 0.2f; // 발 아래로 얼마나 체크할지
+        return Physics.Raycast(transform.position, Vector3.down, distanceToGround);
     }
 }
