@@ -11,7 +11,7 @@ public class SystemInit : MonoBehaviour
         Application.targetFrameRate = SystemData.vFPS;
         SystemData.I.sPlayerInfo.vDashSpeed = 5.0f;
         SystemData.I.sPlayerInfo.vMoveSpeed = 5.0f;
-        SystemData.I.sPlayerInfo.vJumpPower = 10.0f;
+        SystemData.I.sPlayerInfo.vJumpPower = 2.0f;
         SystemData.I.sPlayerInfo.vGravityScale = 2.0f;
 
     }
