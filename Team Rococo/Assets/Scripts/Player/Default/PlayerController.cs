@@ -1,10 +1,13 @@
 using UnityEngine;
+using UnityEngine.InputSystem.XR;
 
 public class PlayerController : MonoBehaviour
 {
     GameObject gPlayer;
     Rigidbody cRigidBody;
     CharacterController cCharacterController;
+
+    Vector3 vVelocity = new Vector3(0, 0, 0);
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -14,22 +17,31 @@ public class PlayerController : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         float vInputX = Input.GetAxis("Horizontal");
         float vInputZ = Input.GetAxis("Vertical");
 
         Vector3 vMoveDirection = new Vector3(vInputX, 0, vInputZ);
-        cCharacterController.Move(transform.position + vMoveDirection.normalized * Time.deltaTime);
+        
 
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            cRigidBody.AddForce(Vector3.up * SystemData.I.sPlayerInfo.vJumpPower, ForceMode.Impulse);
-        }
+        cCharacterController.Move(vMoveDirection.normalized * SystemData.I.sPlayerInfo.vMoveSpeed * Time.deltaTime);
 
-        if (Input.GetKeyDown(KeyCode.LeftShift))
+        if (cCharacterController.isGrounded && vVelocity.y < 0)
         {
-            cRigidBody.AddForce(vMoveDirection * SystemData.I.sPlayerInfo.vDashSpeed, ForceMode.VelocityChange);
+            vVelocity.y = -2f;
+            Debug.Log(cCharacterController.isGrounded);
         }
+        vVelocity.y += Physics.gravity.y * Time.deltaTime;
+
+        if (cCharacterController.isGrounded && Input.GetKeyDown(KeyCode.Space))
+        {
+            vVelocity.y = Mathf.Sqrt(-2f * Physics.gravity.y * SystemData.I.sPlayerInfo.vJumpPower);
+        } else if (Input.GetKeyDown(KeyCode.LeftShift))
+        {
+            vMoveDirection *= SystemData.I.sPlayerInfo.vDashSpeed;
+        }
+        vVelocity.y += Physics.gravity.y * Time.deltaTime;
+        cCharacterController.Move(vVelocity * Time.deltaTime);
     }
 }
