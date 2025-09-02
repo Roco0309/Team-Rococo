@@ -9,6 +9,11 @@ public class SystemInit : MonoBehaviour
     private void Awake()
     {
         Application.targetFrameRate = SystemData.vFPS;
+        SystemData.I.sPlayerInfo.gPlayer = GameObject.FindGameObjectWithTag("Player");
+        if (SystemData.I.sPlayerInfo.gPlayer == null )
+        {
+            SystemData.I.QuitProcess("Error :: gPlayer is null");
+        }
         SystemData.I.sPlayerInfo.vDashSpeed = 5.0f;
         SystemData.I.sPlayerInfo.vMoveSpeed = 5.0f;
         SystemData.I.sPlayerInfo.vJumpPower = 2.0f;
