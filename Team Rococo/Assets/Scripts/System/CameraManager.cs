@@ -10,6 +10,7 @@ public class CameraManager : MonoBehaviour
 
     Transform tPlayerTransform;
     Vector3 vCameraPos;
+    Vector3 vCameraArmPos;
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -22,7 +23,7 @@ public class CameraManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        vCameraPos = gCameraArm.transform.position;
-        gCameraArm.transform.position += (tPlayerTransform.position - vCameraPos) * SystemData.I.sPlayerInfo.vMoveSpeed;
+        vCameraArmPos = gCameraArm.transform.position;
+        gCameraArm.transform.position += (tPlayerTransform.position - vCameraArmPos) * SystemData.I.sPlayerInfo.vMoveSpeed;
     }
 }
