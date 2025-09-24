@@ -15,7 +15,7 @@ public class SystemInit : MonoBehaviour
             SystemData.I.QuitProcess("Error :: gPlayer is null");
         }
         SystemData.I.sPlayerInfo.vDashSpeed = 5.0f;
-        SystemData.I.sPlayerInfo.vMoveSpeed = 5.0f;
+        SystemData.I.sPlayerInfo.vMoveSpeed = 1.0f;
         SystemData.I.sPlayerInfo.vJumpPower = 2.0f;
         SystemData.I.sPlayerInfo.vGravityScale = 2.0f;
 

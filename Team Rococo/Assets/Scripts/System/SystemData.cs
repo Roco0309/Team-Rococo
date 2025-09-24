@@ -55,6 +55,23 @@ public class SystemData
     };
     public PLAYER_INFO sPlayerInfo;
 
+    public struct LOCAL_SETTING
+    {
+        [Header("Controll")]
+        public float vMouseSensitivity;
+
+        [Header("Sounds")]
+        public float vMainVolume;
+        public float vEffectVolume;
+        public float vBGMVolume;
+
+        [Header("Video")]
+        public int vFPS;
+
+
+    }
+    public LOCAL_SETTING sLocalSetting;
+
     public struct TERRAIN_INFO
     {
         public GameObject gTerrain;

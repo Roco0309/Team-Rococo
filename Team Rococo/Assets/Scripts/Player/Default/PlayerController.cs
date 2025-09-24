@@ -35,11 +35,6 @@ public class PlayerController : MonoBehaviour
             vMoveDirection = new Vector3(vInputX, 0, vInputZ).normalized * vSpeed;
         }
 
-        if (vMoveDirection != Vector3.zero)
-        {
-            transform.rotation = Quaternion.Euler(0, Mathf.Atan2(vInputX, vInputZ) * Mathf.Rad2Deg, 0);
-        }
-
         cCharacterController.Move(vMoveDirection * Time.deltaTime);
 
         if (IsGrounded() && vVelocity.y < 0)
