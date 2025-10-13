@@ -1,3 +1,5 @@
+using Unity.VisualScripting;
+
 using UnityEngine;
 
 public class CameraManager : MonoBehaviour
@@ -11,6 +13,8 @@ public class CameraManager : MonoBehaviour
     Transform tPlayerTransform;
     Vector3 vCameraPos;
     Vector3 vCameraArmPos;
+    Vector2 vCameraRotation = Vector2.zero;
+    Quaternion vCameraQuatX, vCameraQuatY;
 
     float vMouseSensitivity;
     float vXRotation;
@@ -26,11 +30,16 @@ public class CameraManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float vMouseX = Input.GetAxis("Mouse X") * vMouseSensitivity * Time.deltaTime;
-        float vMouseY = Input.GetAxis("Mouse Y") * vMouseSensitivity * Time.deltaTime;
+        float vMouseX = Input.GetAxis("Mouse X") * vMouseSensitivity;
+        float vMouseY = Input.GetAxis("Mouse Y") * vMouseSensitivity;
 
-        
-        vCameraArmPos = gCameraArm.transform.position;
-        gCameraArm.transform.position += (tPlayerTransform.position - vCameraArmPos) * SystemData.I.sPlayerInfo.vMoveSpeed;
+        vCameraRotation.x += vMouseX;
+        vCameraRotation.y += vMouseY;
+        vCameraRotation.y = Mathf.Clamp(vCameraRotation.y, -90f, 90f);
+
+        vCameraQuatX = Quaternion.AngleAxis(vCameraRotation.x, Vector3.up);
+        vCameraQuatY = Quaternion.AngleAxis(vCameraRotation.y, Vector3.left);
+
+        transform.localRotation = vCameraQuatX * vCameraQuatY;
     }
 }
