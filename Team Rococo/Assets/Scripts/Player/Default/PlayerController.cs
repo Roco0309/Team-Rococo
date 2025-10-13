@@ -1,6 +1,7 @@
 using System.Collections;
 
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.InputSystem.XR;
 
 public class PlayerController : MonoBehaviour
@@ -24,49 +25,25 @@ public class PlayerController : MonoBehaviour
         isDash = false;
     }
 
-    // Update is called once per frame
-    void FixedUpdate()
+    private void Update()
     {
         float vInputX = Input.GetAxisRaw("Horizontal");
         float vInputZ = Input.GetAxisRaw("Vertical");
 
-        if(!isDash)
-        {
-            vMoveDirection = new Vector3(vInputX, 0, vInputZ).normalized * vSpeed;
-        }
+        vMoveDirection = transform.forward * vInputZ + transform.right * vInputX;
+        vMoveDirection.y = 0;
+        vMoveDirection.Normalize();
+    }
 
-        cCharacterController.Move(vMoveDirection * Time.deltaTime);
-
-        if (IsGrounded() && vVelocity.y < 0)
-        {
-            vVelocity.y = -2f;
-            Debug.Log(IsGrounded());
-        }
-        vVelocity.y += Physics.gravity.y * Time.deltaTime;
-
-        if (IsGrounded() && Input.GetKeyDown(KeyCode.Space))
-        {
-            vVelocity.y = Mathf.Sqrt(-2f * Physics.gravity.y * SystemData.I.sPlayerInfo.vJumpPower);
-        } else if (Input.GetKeyDown(KeyCode.LeftShift))
-        {
-            Dash();
-        }
-        vVelocity.y += Physics.gravity.y * Time.deltaTime;
-        cCharacterController.Move(vVelocity * Time.deltaTime);
+    // Update is called once per frame
+    void FixedUpdate()
+    {
+        transform.position += vMoveDirection * vSpeed * Time.deltaTime;
     }
 
     bool IsGrounded()
     {
         float distanceToGround = 0.2f; // 발 아래로 얼마나 체크할지
         return Physics.Raycast(transform.position, Vector3.down, distanceToGround);
-    }
-
-    IEnumerator Dash()
-    {
-        isDash = true;
-        vSpeed = SystemData.I.sPlayerInfo.vDashSpeed;
-        yield return new WaitForSeconds(0.2f);
-        vSpeed = SystemData.I.sPlayerInfo.vMoveSpeed;
-        isDash = false;
     }
 }
