@@ -37,6 +37,8 @@ public class SystemData
         public Rigidbody rPlayer;
         public PlayerController playerController;
 
+        public Quaternion vCameraQuatX;
+
         public float vMoveSpeed;
         public float vJumpPower;
         public float vDashCool;

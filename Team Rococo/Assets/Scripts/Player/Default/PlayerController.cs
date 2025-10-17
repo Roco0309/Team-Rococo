@@ -15,14 +15,11 @@ public class PlayerController : MonoBehaviour
     Vector3 vMoveDirection;
 
     float vSpeed;
-    bool isDash;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        cCharacterController = GetComponent<CharacterController>();
         vSpeed = SystemData.I.sPlayerInfo.vMoveSpeed;
-        isDash = false;
     }
 
     private void Update()
@@ -33,6 +30,8 @@ public class PlayerController : MonoBehaviour
         vMoveDirection = transform.forward * vInputZ + transform.right * vInputX;
         vMoveDirection.y = 0;
         vMoveDirection.Normalize();
+
+        transform.rotation = SystemData.I.sPlayerInfo.vCameraQuatX;
     }
 
     // Update is called once per frame

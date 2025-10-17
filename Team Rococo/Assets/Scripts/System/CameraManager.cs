@@ -9,6 +9,8 @@ public class CameraManager : MonoBehaviour
     GameObject gCameraArm;
     GameObject gCameraVector;
     GameObject gCameraAxis;
+    [SerializeField]
+    GameObject Eyepos;
 
     Transform tPlayerTransform;
     Vector3 vCameraPos;
@@ -39,7 +41,10 @@ public class CameraManager : MonoBehaviour
 
         vCameraQuatX = Quaternion.AngleAxis(vCameraRotation.x, Vector3.up);
         vCameraQuatY = Quaternion.AngleAxis(vCameraRotation.y, Vector3.left);
+        SystemData.I.sPlayerInfo.vCameraQuatX = vCameraQuatX;
 
-        transform.localRotation = vCameraQuatX * vCameraQuatY;
+        transform.position = Eyepos.transform.position;
+        transform.rotation = vCameraQuatX * vCameraQuatY;
+        
     }
 }
