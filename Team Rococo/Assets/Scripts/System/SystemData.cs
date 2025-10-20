@@ -69,8 +69,14 @@ public class SystemData
 
         [Header("Video")]
         public int vFPS;
-
-
+        public (int, int) resolution;     //해상도
+        public int fullScreenMode;        //전체 화면
+        public int framerate;             //주사율
+        public int textureQuality;        //텍스처
+        public int shadowQuality;         //그림자
+        public int antiAliasing;          //안티앨리어싱
+        public int vSync;                 //수직동기화    
+        public int anisotropicFiltering;  //비등방성 필터링
     }
     public LOCAL_SETTING sLocalSetting;
 

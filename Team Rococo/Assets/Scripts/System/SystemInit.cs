@@ -10,6 +10,8 @@ public class SystemInit : MonoBehaviour
     private void Awake()
     {
         Application.targetFrameRate = SystemData.vFPS;
+        /*Application.targetFrameRate = SystemData.I.sLocalSetting.framerate;*/
+
         SystemData.I.sPlayerInfo.gPlayer = GameObject.FindGameObjectWithTag("Player");
         if (SystemData.I.sPlayerInfo.gPlayer == null )
         {
