@@ -86,4 +86,15 @@ public class SystemData
     };
     public TERRAIN_INFO sTerrainInfo;
 
+    public struct INGAME_DATA
+    {
+        public float nowTime;
+        public bool toothBrush;
+        public bool flashLight;
+        public bool toySword;
+        public bool snack;
+        public bool familyPhoto;
+    };
+    public INGAME_DATA sIngameData;
+
 }
