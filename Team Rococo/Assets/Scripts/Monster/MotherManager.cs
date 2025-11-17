@@ -1,16 +1,3 @@
-using UnityEngine;
-
-public class MotherManager : MonoBehaviour
-{
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:bfafa6d39f217019262a916dac2036c2170178076ae2a4f468f17023d5ea554c
+size 300
