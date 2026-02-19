@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Item
   - Balloon
+  - DayEnd
   layers:
   - Default
   - TransparentFX
