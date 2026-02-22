@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: c85eab939b2107d4b987cffb4233f241
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 321632
+  packageName: Confetti Party Particles URP
+  packageVersion: 1.0
+  assetPath: Assets/Unluck Software/Scripts/AnimatedLight.cs
+  uploadId: 759632
