@@ -24,3 +24,22 @@ MonoBehaviour:
   antiAliasing: 0
   vSync: 0
   anisotropicFiltering: 0
+  nowTime: 0
+  day: 0
+  collectionCount: 0
+  toothBrush: 0
+  flashLight: 0
+  toySword: 0
+  snack: 0
+  familyPhoto: 0
+  drink: 0
+  pigBank: 0
+  map: 0
+  teddyBear: 0
+  mimic: 0
+  lego: 0
+  balloon: 0
+  niceBoy: 0
+  darky: 0
+  drawing: 0
+  easterEgg: 0

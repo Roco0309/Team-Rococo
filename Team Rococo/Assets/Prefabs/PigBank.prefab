@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 30570532210569218}
   - component: {fileID: 991163915073950762}
   m_Layer: 7
-  m_Name: Box
+  m_Name: PigBank
   m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -121,6 +121,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f371377cb5a922e4aa39e492f3661d3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemNumber: 0
-  itemName: Box
+  itemNumber: 6
+  itemName: PigBank
   itemImage: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
