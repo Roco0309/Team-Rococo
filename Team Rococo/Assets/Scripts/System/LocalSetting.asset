@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed01eeef36630124f8fdfa25ea15cd4f, type: 3}
   m_Name: LocalSetting
   m_EditorClassIdentifier: 
-  vMouseSensitivity: 0
+  vMouseSensitivity: 1
   vMainVolume: 0
   vEffectVolume: 0
   vBGMVolume: 0
-  vFPS: 0
+  vFPS: 60
   fullScreenMode: 0
   framerate: 0
   textureQuality: 0
@@ -24,3 +24,22 @@ MonoBehaviour:
   antiAliasing: 0
   vSync: 0
   anisotropicFiltering: 0
+  nowTime: 0
+  day: 0
+  collectionCount: 0
+  toothBrush: 0
+  flashLight: 0
+  toySword: 0
+  snack: 0
+  familyPhoto: 0
+  drink: 0
+  pigBank: 0
+  map: 0
+  teddyBear: 0
+  mimic: 0
+  lego: 0
+  balloon: 0
+  niceBoy: 0
+  darky: 0
+  drawing: 0
+  easterEgg: 0
