@@ -7,6 +7,7 @@ TagManager:
   - Item
   - Balloon
   - DayEnd
+  - Door
   layers:
   - Default
   - TransparentFX
