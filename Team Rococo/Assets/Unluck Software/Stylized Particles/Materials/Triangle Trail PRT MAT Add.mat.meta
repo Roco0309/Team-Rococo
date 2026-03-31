@@ -1,14 +1,8 @@
 fileFormatVersion: 2
-guid: a0553c4945598c048a44b1fa489ae4cc
+guid: 6425f051c31bc8f4fa883af64f2632e6
 NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 321632
-  packageName: Confetti Party Particles URP
-  packageVersion: 1.0
-  assetPath: Assets/Unluck Software/Stylized Particles/Materials/Triangle Trail PRT
-    MAT Add.mat
-  uploadId: 759632

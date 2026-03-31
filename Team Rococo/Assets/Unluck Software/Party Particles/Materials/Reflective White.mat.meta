@@ -1,15 +1,8 @@
 fileFormatVersion: 2
-guid: 170c4f11989425b449fbdcd1a766d76a
+guid: fe508b6c7b3971d4a99d8ff84e7849e9
 NativeFormatImporter:
   externalObjects: {}
-  mainObjectFileID: 2100000
+  mainObjectFileID: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 321632
-  packageName: Confetti Party Particles URP
-  packageVersion: 1.0
-  assetPath: Assets/Unluck Software/Party Particles/Materials/Reflective White.mat
-  uploadId: 759632
