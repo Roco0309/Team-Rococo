@@ -1,14 +1,8 @@
 fileFormatVersion: 2
-guid: 62912ba4324d3ac448037929e056412f
+guid: cbcd69d09db9ff64c9c5484556391dc6
 NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 321632
-  packageName: Confetti Party Particles URP
-  packageVersion: 1.0
-  assetPath: Assets/Unluck Software/Stylized Particles/Materials/Glow Slash PRT MAT
-    Add.mat
-  uploadId: 759632

@@ -1,15 +1,8 @@
 fileFormatVersion: 2
-guid: 3c30a7b669dca8041b4568a6b80e60cb
-timeCreated: 18446744011573954816
+guid: ad6ad453a5235ec40b7e4ce4b8ef3807
 NativeFormatImporter:
+  externalObjects: {}
   mainObjectFileID: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 321632
-  packageName: Confetti Party Particles URP
-  packageVersion: 1.0
-  assetPath: Assets/Unluck Software/Party Particles/Materials/Balloon Sheet RGB MAT.mat
-  uploadId: 759632

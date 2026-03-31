@@ -1,16 +1,8 @@
 fileFormatVersion: 2
-guid: 46c97ac5d92e7594d9d67de903f0b66e
+guid: 4cd2f2502a63afe45920004ebdff7339
 NativeFormatImporter:
   externalObjects: {}
-  mainObjectFileID: 2100000
+  mainObjectFileID: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 321632
-  packageName: Confetti Party Particles URP
-  packageVersion: 1.0
-  assetPath: Assets/Unluck Software/Party Particles/Materials/Reflective Color Sheet
-    Balloons.mat
-  uploadId: 759632

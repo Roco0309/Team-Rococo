@@ -1,14 +1,8 @@
 fileFormatVersion: 2
-guid: 6eb1881ee7971e24ba32247de158eb86
+guid: 9cf852b25fe37244b8215be9a985bbaa
 NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 321632
-  packageName: Confetti Party Particles URP
-  packageVersion: 1.0
-  assetPath: Assets/Unluck Software/Stylized Particles/Materials/Toon Star PRT MAT
-    Alpha.mat
-  uploadId: 759632
