@@ -55,7 +55,7 @@ MonoBehaviour:
   minDistance: 1
   maxDistance: 2
   angleRange: 60
-  MonsterTeddy: {fileID: 0}
+  MonsterTeddy: {fileID: 6576371463843117576}
   timeCheck: 0
   spawnChance: 0
 --- !u!1001 &5445916617833467977
