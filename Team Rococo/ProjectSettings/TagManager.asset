@@ -9,6 +9,7 @@ TagManager:
   - DayEnd
   - Door
   - SearchPoint
+  - Terrain
   layers:
   - Default
   - TransparentFX
