@@ -48,9 +48,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
+  ingameManager: {fileID: 0}
   monster: {fileID: 8577337859439111946}
   monsterAnim: {fileID: 3072351248526946250}
-  monsterHead: {fileID: 0}
+  monsterHead: {fileID: 5657455306497425003}
   cutsceneMonster: {fileID: 6576371463843117576}
   cutsceneMonsterHead: {fileID: 7118068910606232425}
   cutsceneCamera: {fileID: 5568682725470470769}
@@ -62,6 +63,7 @@ MonoBehaviour:
   audios: []
   doors: []
   attackDistance: 3
+  waypoints: []
   spawnCheck: 0
   Bear: {fileID: 5139347827147762968}
   BearHead: {fileID: 8967989431294780721}
@@ -980,6 +982,11 @@ PrefabInstance:
 --- !u!95 &3072351248526946250 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 5866666021909216657, guid: faae60deca187b8448eccbe58eb5d194, type: 3}
+  m_PrefabInstance: {fileID: 8919865627081806427}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5657455306497425003 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3840140185929051184, guid: faae60deca187b8448eccbe58eb5d194, type: 3}
   m_PrefabInstance: {fileID: 8919865627081806427}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &8577337859439111946 stripped
