@@ -12,6 +12,7 @@ TagManager:
   - Terrain
   - Monster
   - Waypoint
+  - Switch
   layers:
   - Default
   - TransparentFX
