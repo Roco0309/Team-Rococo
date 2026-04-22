@@ -11,6 +11,9 @@ TagManager:
   - SearchPoint
   - Terrain
   - Monster
+  - Waypoint
+  - Switch
+  - Light
   layers:
   - Default
   - TransparentFX
