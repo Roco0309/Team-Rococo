@@ -76,6 +76,10 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: -0.5114894
       objectReference: {fileID: 0}
+    - target: {fileID: -4924403254244920922, guid: ca99f20b02859e14a8843ba04cddca62, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: ca99f20b02859e14a8843ba04cddca62, type: 3}
       propertyPath: m_Name
       value: mom
@@ -143,7 +147,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a397334b5245bc3478cf8448f1c94297, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
   ingameManager: {fileID: 0}
+  monster: {fileID: 0}
+  monsterAnim: {fileID: 0}
+  monsterHead: {fileID: 0}
+  cutsceneMonster: {fileID: 0}
+  cutsceneMonsterHead: {fileID: 0}
+  cutsceneCamera: {fileID: 0}
+  cutsceneAnim: {fileID: 0}
+  cutsceneCheckLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  agent: {fileID: 0}
+  audios: []
+  doors: []
+  attackDistance: 0
+  waypoints: []
   ObjectEventPos: []
   PTlayerMask:
     serializedVersion: 2
@@ -156,7 +176,6 @@ MonoBehaviour:
     m_Bits: 1024
   viewAngle: 60
   viewRadius: 10
-  player: {fileID: 0}
   HeadPosition: {fileID: 3448352639933820639}
 --- !u!195 &4162456547838215017
 NavMeshAgent:
