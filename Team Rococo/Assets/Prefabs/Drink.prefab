@@ -70,7 +70,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemNumber: 5
   itemName: Drink
-  itemImage: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
+  itemImage: {fileID: 21300000, guid: 8e08ef9476615074cbcaa477b25738ff, type: 3}
 --- !u!1 &7478928761013298719
 GameObject:
   m_ObjectHideFlags: 0
