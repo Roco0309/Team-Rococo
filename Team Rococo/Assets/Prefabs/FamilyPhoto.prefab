@@ -78,17 +78,32 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: abd1fd6123176f44b98033ddb81d90d3, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 4080631690076254893}
+      addedObject: {fileID: 5298269646366592077}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: abd1fd6123176f44b98033ddb81d90d3, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 5298269646366592077}
+      addedObject: {fileID: 7779692916861412094}
   m_SourcePrefab: {fileID: 100100000, guid: abd1fd6123176f44b98033ddb81d90d3, type: 3}
 --- !u!1 &4449384251647695999 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: abd1fd6123176f44b98033ddb81d90d3, type: 3}
   m_PrefabInstance: {fileID: 3566299735090307374}
   m_PrefabAsset: {fileID: 0}
---- !u!65 &4080631690076254893
+--- !u!114 &5298269646366592077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4449384251647695999}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f371377cb5a922e4aa39e492f3661d3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemNumber: 4
+  itemName: FamilyPhoto
+  itemImage: {fileID: 21300000, guid: d15a0f09c8586934d9a6f5227de8ef65, type: 3}
+--- !u!65 &7779692916861412094
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -107,20 +122,5 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.15, y: 0.15, z: 0.1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &5298269646366592077
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4449384251647695999}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f371377cb5a922e4aa39e492f3661d3e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemNumber: 4
-  itemName: FamilyPhoto
-  itemImage: {fileID: 21300000, guid: d15a0f09c8586934d9a6f5227de8ef65, type: 3}
+  m_Size: {x: 0.15, y: 0.099999994, z: 0.012296591}
+  m_Center: {x: -0.0026530959, y: 0.004672488, z: -2.3283064e-10}
