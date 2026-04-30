@@ -857,7 +857,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSource: {fileID: 1367489116762812364}
   soundToPlay: {fileID: 8300000, guid: 1ab27af76303abb4c9c1fe459438bb92, type: 3}
-  secondSound: {fileID: 0}
+  secondSound: {fileID: 8300000, guid: a4dbe67c58adebe459c71fb0639243fd, type: 3}
   thirdSound: {fileID: 0}
   fourthSound: {fileID: 0}
 --- !u!4 &5483538481212897186 stripped
