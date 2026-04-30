@@ -1503,7 +1503,7 @@ MonoBehaviour:
   audioSource: {fileID: 367029124699442139}
   soundToPlay: {fileID: 8300000, guid: a049f0dc77dab8840998c650a51b6570, type: 3}
   secondSound: {fileID: 8300000, guid: 8a32d8bb5b457514e9c972428589bf5a, type: 3}
-  thirdSound: {fileID: 0}
+  thirdSound: {fileID: 8300000, guid: 865e440acb6d7d44e9d54647171a70ae, type: 3}
   fourthSound: {fileID: 0}
 --- !u!1 &2125116140066160551 stripped
 GameObject:
