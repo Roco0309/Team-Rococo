@@ -8,11 +8,16 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: denimM
-    second: {fileID: 2100000, guid: 854fe24263315a7409134b7ee80c699c, type: 2}
+    second: {fileID: 2100000, guid: c3eac2f9cc168ac4eba3953bed20a6e5, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: hair1
+    second: {fileID: 2100000, guid: 5927585175839a24caa804491571cdcc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hairM
     second: {fileID: 2100000, guid: 5927585175839a24caa804491571cdcc, type: 2}
   - first:
       type: UnityEngine:Material
@@ -22,7 +27,22 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: lipM
+    second: {fileID: 2100000, guid: 3739a12ce58859a4d9fe881960cb7109, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: semiDeminM
+    second: {fileID: 2100000, guid: 1468d2f5e46d5df439c35c137234de61, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: shirt
+    second: {fileID: 2100000, guid: 4208d7b4a90265c4f99ad70bacc84d6a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shirtM
     second: {fileID: 2100000, guid: 4208d7b4a90265c4f99ad70bacc84d6a, type: 2}
   - first:
       type: UnityEngine:Material
@@ -32,8 +52,28 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: skinM
+    second: {fileID: 2100000, guid: 7d412b3127bb2e14eac097991d9e757d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: socksM
     second: {fileID: 2100000, guid: afeee06a278a5c84ca9642f72e59b958, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: standardSurface2
+    second: {fileID: 2100000, guid: e49e021beefc32f45be4adf955243d23, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: storege_gums
+    second: {fileID: 2100000, guid: 3ab316c777db94a48a764491ba25232f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: storege_teeth2
+    second: {fileID: 2100000, guid: bb8d21f1a7de47a48a3fea9c9e160463, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
