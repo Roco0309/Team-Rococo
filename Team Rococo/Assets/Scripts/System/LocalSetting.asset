@@ -25,18 +25,18 @@ MonoBehaviour:
   vSync: 0
   anisotropicFiltering: 0
   nowTime: 0
-  day: 2
-  collectionCount: 0
+  day: 4
+  collectionCount: 1
   toothBrush: 0
   flashLight: 0
-  toySword: 0
+  toySword: 1
   snack: 0
   familyPhoto: 0
   drink: 0
   pigBank: 0
   map: 0
-  teddyBear: 0
-  mimic: 1
+  teddyBear: 1
+  mimic: 0
   lego: 0
   balloon: 0
   niceBoy: 0
