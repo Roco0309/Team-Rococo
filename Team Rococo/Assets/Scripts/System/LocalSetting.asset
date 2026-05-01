@@ -25,7 +25,7 @@ MonoBehaviour:
   vSync: 0
   anisotropicFiltering: 0
   nowTime: 0
-  day: 4
+  day: 2
   collectionCount: 1
   toothBrush: 0
   flashLight: 0
@@ -35,8 +35,8 @@ MonoBehaviour:
   drink: 0
   pigBank: 0
   map: 0
-  teddyBear: 1
-  mimic: 0
+  teddyBear: 0
+  mimic: 1
   lego: 0
   balloon: 0
   niceBoy: 0

@@ -352,6 +352,8 @@ MonoBehaviour:
   doors: []
   attackDistance: 1
   waypoints: []
+  spawnTime: 0
+  isInCutscene: 0
   ObjectEventPos: []
   PTlayerMask:
     serializedVersion: 2
