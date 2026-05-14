@@ -7,13 +7,23 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: blackM
+    second: {fileID: 2100000, guid: e63792dc480296f4ba5159204a9e5c9a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: denimM
     second: {fileID: 2100000, guid: c3eac2f9cc168ac4eba3953bed20a6e5, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: denim_semi
+    second: {fileID: 2100000, guid: 2607809139ec63f408275e20b6bee640, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: hair1
-    second: {fileID: 2100000, guid: 5927585175839a24caa804491571cdcc, type: 2}
+    second: {fileID: 2100000, guid: c5abc493cc910494d99db4aaad540986, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -23,7 +33,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: lip
-    second: {fileID: 2100000, guid: d798fc0745934c14ca92bf9d357b2a23, type: 2}
+    second: {fileID: 2100000, guid: bc048ff1664f4504e93bd86deb7e02a6, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -38,7 +48,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: shirt
-    second: {fileID: 2100000, guid: 4208d7b4a90265c4f99ad70bacc84d6a, type: 2}
+    second: {fileID: 2100000, guid: 49c5c1c7badbf0f49a4d9094721ead4c, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -48,7 +58,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: skin
-    second: {fileID: 2100000, guid: 7d412b3127bb2e14eac097991d9e757d, type: 2}
+    second: {fileID: 2100000, guid: 03581982eef959649a1c7f301787969f, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -63,17 +73,52 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: standardSurface2
-    second: {fileID: 2100000, guid: e49e021beefc32f45be4adf955243d23, type: 2}
+    second: {fileID: 2100000, guid: e5d491a76a0004847a1e50b7c5930067, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: storege_gums
-    second: {fileID: 2100000, guid: 3ab316c777db94a48a764491ba25232f, type: 2}
+    second: {fileID: 2100000, guid: 1bea69437e2b087418b0a6f16c52ca72, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: storege_teeth2
-    second: {fileID: 2100000, guid: bb8d21f1a7de47a48a3fea9c9e160463, type: 2}
+    second: {fileID: 2100000, guid: 7f2a52f2ced1e6441b3c7fd067fc707b, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Plastic003_4K-JPG_Color
+    second: {fileID: 2800000, guid: 7b7252847266d8e42957ac95948c0c13, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: cloth
+    second: {fileID: 2800000, guid: 65484db939ce6f744b360d904db02aef, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: denim
+    second: {fileID: 2800000, guid: 624c3b994a202174b900991adde9eb19, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: hair
+    second: {fileID: 2800000, guid: 97de007dc3d1c7f49b73b023140c62e1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: humanSkin
+    second: {fileID: 2800000, guid: c0089bff5effd8946b2ecd7c92f1df96, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ribbon
+    second: {fileID: 2800000, guid: 3be803ed40809544188dc1d5d414032d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: socks
+    second: {fileID: 2800000, guid: d7f8314858339ed4e99df3e1d08a8d25, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -134,7 +179,7 @@ ModelImporter:
       takeName: Take 001
       internalID: -998496362607748373
       firstFrame: 1
-      lastFrame: 161
+      lastFrame: 41
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
