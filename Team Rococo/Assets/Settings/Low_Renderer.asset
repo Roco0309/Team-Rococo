@@ -40,7 +40,8 @@ MonoBehaviour:
   m_RendererFeatures:
   - {fileID: 3661784776251994773}
   - {fileID: -5220282277562529044}
-  m_RendererFeatureMap: 95f26e60da45d132ec4a9e42edd48db7
+  - {fileID: 6174444584976306681}
+  m_RendererFeatureMap: 95f26e60da45d132ec4a9e42edd48db7f9d1d8eca208b055
   m_UseNativeRenderPass: 0
   xrSystemData: {fileID: 0}
   postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
@@ -87,3 +88,21 @@ MonoBehaviour:
       surfaceData: 2
     screenSpaceSettings:
       normalBlend: 0
+--- !u!114 &6174444584976306681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 473a86c9e274347dfbdde619584cebe9, type: 3}
+  m_Name: HighlightPlusRenderPassFeature
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  renderPassEvent: 500
+  clearStencil: 0
+  previewInEditMode: 1
+  showInSceneView: 1
+  showInPreviewCamera: 0
