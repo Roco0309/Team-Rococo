@@ -3,7 +3,12 @@ guid: 526c351337dbaad4f8b492a69681f73b
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lipstick_M1
+    second: {fileID: 2100000, guid: fdb53153cb0a7734998c0526c0d21544, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

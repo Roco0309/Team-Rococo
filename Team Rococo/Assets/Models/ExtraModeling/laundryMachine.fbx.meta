@@ -3,7 +3,17 @@ guid: 2f70efdaa7d2f9c49abe9361f38e9f59
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface2
+    second: {fileID: 2100000, guid: a857210b2bfd82844941cdac1bd666e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: laundryM_M
+    second: {fileID: 2100000, guid: c04b6b1ac95c42247945e1707cd9db46, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

@@ -3,7 +3,22 @@ guid: 1bda59cbc62b34543bb67c385d073bed
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface17
+    second: {fileID: 2100000, guid: 5d120d3eefdbb3246b63d6b4d6eb06ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface23
+    second: {fileID: 2100000, guid: f60a580572a9dc2439afb1aea4194bab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: livingRoom_shelf1_aiStandardSurface2
+    second: {fileID: 2100000, guid: 6fb4ac092e7ecc245913fb2a361c957b, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

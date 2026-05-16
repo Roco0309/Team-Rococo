@@ -7,8 +7,483 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: aiStandardSurface10
+    second: {fileID: 2100000, guid: 9216807fa71c2354c8a7a4269fdc36b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface101
+    second: {fileID: 2100000, guid: 0c8790a9473d4a442a0fbddf847cadb3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface105
+    second: {fileID: 2100000, guid: 8e65deeedddd46a4f86e9cbd0b796ea0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface11
+    second: {fileID: 2100000, guid: d8df7e4d16d02294f861e3992508d018, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface14
+    second: {fileID: 2100000, guid: 78439adb39df58247bb3efcf788aac59, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface19
+    second: {fileID: 2100000, guid: bcf58f88db681c546bcd0fb328f46f31, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface20
+    second: {fileID: 2100000, guid: 02263e388c7736249ab95bd957f0ee1b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface24
+    second: {fileID: 2100000, guid: 32f5df9e348e17246b1d2e99d00a1dd5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface31
+    second: {fileID: 2100000, guid: b1e985cfe89053b46b4a5a36b460ec50, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface32
+    second: {fileID: 2100000, guid: 11193d2e92ffb5348922cab9298bdb6e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface33
+    second: {fileID: 2100000, guid: d0744d2d316ab0f4ea5acf2504420914, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface34
+    second: {fileID: 2100000, guid: e4c966e07c7331745ae16bd618b67028, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface35
+    second: {fileID: 2100000, guid: 985949c5335237f4c9b2a17260d45b5b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface36
+    second: {fileID: 2100000, guid: ee84e91d1a0090a469091df7a3434d46, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface38
+    second: {fileID: 2100000, guid: 484d66d77c00a1e42927d05f2073d0bb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface4
+    second: {fileID: 2100000, guid: cdbbf6e450b256345be2de74fedfa24a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface43
+    second: {fileID: 2100000, guid: 432bf155d1be3014ea606449f22d6d29, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface45
+    second: {fileID: 2100000, guid: 4c753113fce49114c9a6c66e9d4c2273, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface46
+    second: {fileID: 2100000, guid: 4c13caa8ed37a904b9e5a29b74656bd2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface47
+    second: {fileID: 2100000, guid: 91eea8eb0053de24c9e6bf7b3aed62d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface51
+    second: {fileID: 2100000, guid: a2b7b3a0249ad004db22d8a05936318c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface52
+    second: {fileID: 2100000, guid: 8f2ee7cb881827b42b912375f96af536, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface54
+    second: {fileID: 2100000, guid: 7fc7fbd63c8e4e64bb498cf900546c4f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface61
+    second: {fileID: 2100000, guid: 75b0f1e2cf84cb1429fe128704bd20ee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface62
+    second: {fileID: 2100000, guid: 83476a911d55d5349be53be8ad8d81fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface65
+    second: {fileID: 2100000, guid: 5e1d66bb3be6460489d668f27778450e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface70
+    second: {fileID: 2100000, guid: b1072f25cd6978a41a44b030ec197857, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface71
+    second: {fileID: 2100000, guid: f3f8485a69daf3e4aa6e77bb99c56314, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface73
+    second: {fileID: 2100000, guid: db233fbad5488804bb5c38c27bdea552, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface75
+    second: {fileID: 2100000, guid: eaace68dae14da941ab12aaef7b2b441, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface80
+    second: {fileID: 2100000, guid: 20f62ca8721b01e4e8aa733ac0b2c908, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface81
+    second: {fileID: 2100000, guid: b5ca3f0a01c0b8747af5dc53f3f93361, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface87
+    second: {fileID: 2100000, guid: 57a3f99d4b5b8e0408ca09859d196dee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface88
+    second: {fileID: 2100000, guid: 6c20e1d53452fa9479e4c9ee5d2bc0b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface89
+    second: {fileID: 2100000, guid: 76e846d7574fe1445ab49ee6122f3357, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface94
+    second: {fileID: 2100000, guid: 7a2a9f7bf8795c3478c1e80a9a249126, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: balcony_door_aiStandardSurface1
+    second: {fileID: 2100000, guid: 6e0b46033deacaf47b22284f0da1f7e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bedRoom_Closet_aiStandardSurface83
+    second: {fileID: 2100000, guid: 373b5a2e34cf55643a1232c1d7b4ae8a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bedRoom_Closet_aiStandardSurface84
+    second: {fileID: 2100000, guid: df4db9649f8d26349bb7a9b1752193b1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bedRoom_Closet_aiStandardSurface85
+    second: {fileID: 2100000, guid: 3ff2bf51f55495b4ab35197e3ade1333, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bedRoom_Closet_aiStandardSurface86
+    second: {fileID: 2100000, guid: 6ad442bc378447244980a6787404dcda, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bedRoom_Closet_aiStandardSurface87
+    second: {fileID: 2100000, guid: e4e6a1e1fc478824486c50d8cdcaa296, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bedRoom_drawer_0002_aiStandardSurface190
+    second: {fileID: 2100000, guid: e8283908fa32fa14ea80f016ba0f6a7a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bedRoom_drawer_0002_aiStandardSurface192
+    second: {fileID: 2100000, guid: d9964b82f879a2740be6352ebf83dee7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: calendar_aiStandardSurface1
+    second: {fileID: 2100000, guid: c93782b610063164da0e049bbb13a0f3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door_0001_aiStandardSurface2
+    second: {fileID: 2100000, guid: 78a95b5cf6b49e845b59a1cdd94f35e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door_0001_aiStandardSurface3
+    second: {fileID: 2100000, guid: 7d0ebd17e78fce84e8583aaedaffb997, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door_0001_aiStandardSurface4
+    second: {fileID: 2100000, guid: 9574dfa20ee2a0242912ed584ff40596, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dryingRack_0005_aiStandardSurface1
+    second: {fileID: 2100000, guid: 09870f69b7f21ed469b757e8d0bd9136, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: electricMat_0003_aiStandardSurface6
+    second: {fileID: 2100000, guid: db7c92da3a223b84b95262cb6e9a542e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: electricMat_0003_powerOutlet_electricMat_electricMat_0001_aiStandardSurface1
+    second: {fileID: 2100000, guid: f50f69f10bc21c54494139928b7e6e2b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: electricMat_0003_powerOutlet_electricMat_electricMat_0001_aiStandardSurface2
+    second: {fileID: 2100000, guid: eae08aaa25c70f54f98a35b40019eb2f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: electricMat_0003_powerOutlet_electricMat_electricMat_0001_aiStandardSurface3
+    second: {fileID: 2100000, guid: b56ce4568655fc846b510315ddbe71ed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kitchen_0030_aiStandardSurface109
+    second: {fileID: 2100000, guid: 1105874dc2c0e064ba8450ab4300de2a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kitchen_0030_aiStandardSurface174
+    second: {fileID: 2100000, guid: 9cc0d358795f0974f9008b41cf86d426, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kitchen_0030_aiStandardSurface175
+    second: {fileID: 2100000, guid: d33168bcde5e36b4c9c7fc9ee9f5e020, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kitchen_0030_aiStandardSurface176
+    second: {fileID: 2100000, guid: 71c3648e0d5583249886a79b76dbd370, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kitchen_0030_aiStandardSurface177
+    second: {fileID: 2100000, guid: 080404bf441174c4c85612cb1db2a5ad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kitchen_0030_aiStandardSurface178
+    second: {fileID: 2100000, guid: a9bbe8d88968b4f4a833d003aadfb169, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kitchen_0030_aiStandardSurface180
+    second: {fileID: 2100000, guid: f0c0020aaa306cd41b72d6db0746d309, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kitchen_0030_aiStandardSurface181
+    second: {fileID: 2100000, guid: 7257792c6f1ad1b41ad5a76680f34b36, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kitchen_0030_aiStandardSurface183
+    second: {fileID: 2100000, guid: 2ba00b13dcb1585478f4e5957aa62da5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kitchen_0030_aiStandardSurface184
+    second: {fileID: 2100000, guid: e0470500886a3ec438b1f8d54500d76f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kitchen_0030_aiStandardSurface185
+    second: {fileID: 2100000, guid: ca1a6d4a0a7ba664aa0b1d53765903f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kitchen_0030_aiStandardSurface187
+    second: {fileID: 2100000, guid: 401f334d228a35b459e0df15d4b5cc2f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kitchen_0030_aiStandardSurface188
+    second: {fileID: 2100000, guid: dfabb42d0957ae04585e0042c73dca41, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kitchen_0030_aiStandardSurface189
+    second: {fileID: 2100000, guid: 60a51cbe87ac7df4d81dac3ce14f1542, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kitchen_0030_aiStandardSurface190
+    second: {fileID: 2100000, guid: c1afbafc519b5fe4ba600bc365c395bb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kitchen_0030_aiStandardSurface87
+    second: {fileID: 2100000, guid: 654d0e1f3f6c3b748bbec39b0ae7180e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kitchen_0030_aiStandardSurface89
+    second: {fileID: 2100000, guid: 3cca8a737bdc6f2448291eaeea12bbde, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kitchen_0030_pasted__aiStandardSurface27
+    second: {fileID: 2100000, guid: 5f296bb59ffec3848bb9d73557c3e07c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kitchen_0030_pasted__aiStandardSurface28
+    second: {fileID: 2100000, guid: ca9361b6b4a79e443a29aba66c80fe8d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kitchen_0030_pasted__aiStandardSurface29
+    second: {fileID: 2100000, guid: 52c977ad6cd397d419cadb1053c0c782, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kitchen_0030_refrigerator_0005_aiStandardSurface3
+    second: {fileID: 2100000, guid: 07af62693ffe0b346b125730ff47d945, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: lightSwitch_0001_aiStandardSurface1
     second: {fileID: 2100000, guid: ce1830068ea4c984f805b7c99a4a76a4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: livingRoom_table_0001_aiStandardSurface1
+    second: {fileID: 2100000, guid: 0517261ff814a8546ac6863f474d321c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: livingRoom_table_0001_aiStandardSurface2
+    second: {fileID: 2100000, guid: 3a47102afe85d8e419d95a4ea1f9ab3e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mutiTab_0001_aiStandardSurface3
+    second: {fileID: 2100000, guid: 11c2afe51c448b544ab68e78c6872467, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: old_table_aiStandardSurface1
+    second: {fileID: 2100000, guid: f6bee805a6369574ba776f1afc8f4e96, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: old_table_aiStandardSurface2
+    second: {fileID: 2100000, guid: d6983bf792e9ac24cb51d32a2e5d6159, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pot
+    second: {fileID: 2100000, guid: 2f3791224cfad134c8a8e283f8a57084, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: power_outlet_0005_aiStandardSurface3
+    second: {fileID: 2100000, guid: 1e98b5caa097b1e4f868a9ae456a3d66, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: power_outlet_0005_aiStandardSurface5
+    second: {fileID: 2100000, guid: 00cf29c3310d0bb40a3a62b9322cf3f7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: standardSurface1
+    second: {fileID: 2100000, guid: ef0dee4c9f88c244b9cd22186d11cc9f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wall_bedroom_window_0003_aiStandardSurface5
+    second: {fileID: 2100000, guid: 992fe11e081aced43b63027538cd7182, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wall_bedroom_window_0003_aiStandardSurface6
+    second: {fileID: 2100000, guid: 7f66c5727828754439d58e223cc98dfa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wall_bedroom_window_0003_aiStandardSurface7
+    second: {fileID: 2100000, guid: 05f2cad02e78b38479b573640ef16303, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wall_bedroom_window_0003_aiStandardSurface8
+    second: {fileID: 2100000, guid: 8ddfef7e5e66cb94581bae759add61be, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: window_0004_aiStandardSurface91
+    second: {fileID: 2100000, guid: 2bb96017496fa5e46ac880997ffaf299, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: window_0004_aiStandardSurface92
+    second: {fileID: 2100000, guid: cd0439d20a7723c4dba1d37891ac3550, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: window_0004_aiStandardSurface93
+    second: {fileID: 2100000, guid: 1ad8c81ba326d1d4f919e5408115ff18, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: window_0004_aiStandardSurface94
+    second: {fileID: 2100000, guid: 9c21d8b7ff39e124e8166075bcf7cf7c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: window_0004_aiStandardSurface95
+    second: {fileID: 2100000, guid: cdaa2e3b299e5e14192a16283d8b01a7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: window_0004_aiStandardSurface98
+    second: {fileID: 2100000, guid: 1a4c63e519b58104cba6df4aa5ebe297, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: window_0004_aiStandardSurface99
+    second: {fileID: 2100000, guid: 3faba7270dfbb944a9f57db81b9b0bf4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: window_aiStandardSurface1
+    second: {fileID: 2100000, guid: c5c30c5e91f9bf84aadc9382a04174ca, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

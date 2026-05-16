@@ -3,7 +3,12 @@ guid: 8cc75a0fcc0bfe146b77b5a3b1acb869
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: poster_M1
+    second: {fileID: 2100000, guid: df2f5a4181d09e543a90eb0ed5f8ec4f, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
