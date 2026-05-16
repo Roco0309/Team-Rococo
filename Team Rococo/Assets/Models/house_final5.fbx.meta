@@ -3,7 +3,12 @@ guid: 1cdb0b3feaf30a24a9178f9e42762849
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lightSwitch_0001_aiStandardSurface1
+    second: {fileID: 2100000, guid: ce1830068ea4c984f805b7c99a4a76a4, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
