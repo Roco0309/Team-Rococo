@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: d1de1de7cfbf9944c99b05930e7b7289
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 280345
+  packageName: 'LUTs: Horror'
+  packageVersion: 3.0.1
+  assetPath: Assets/FronkonGames/LUTs/Horror/Demo/Scripts/HorrorDemo.cs
+  uploadId: 886566

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 1db7e308dfc8a204b9f72b96d62ac266
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 280345
+  packageName: 'LUTs: Horror'
+  packageVersion: 3.0.1
+  assetPath: Assets/FronkonGames/LUTs/Horror/Demo/Scripts/Rotate.cs
+  uploadId: 886566
