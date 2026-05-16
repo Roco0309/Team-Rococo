@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6a5874f16b3163c4987975b6a84caabe
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 280345
+  packageName: 'LUTs: Horror'
+  packageVersion: 3.0.1
+  assetPath: Assets/FronkonGames/LUTs/Horror/Demo/Textures/orange.mat
+  uploadId: 886566
