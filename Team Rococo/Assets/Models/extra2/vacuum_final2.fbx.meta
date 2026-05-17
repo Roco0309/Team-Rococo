@@ -3,7 +3,12 @@ guid: 24660eb30083b5941bfe64adca419f28
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vacuum_M
+    second: {fileID: 2100000, guid: 19710b931d9785e459f109b8bd4af4d5, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
