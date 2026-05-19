@@ -26,20 +26,20 @@ MonoBehaviour:
   anisotropicFiltering: 0
   nowTime: 0
   day: 7
-  collectionCount: 7
-  toothBrush: 0
-  flashLight: 1
-  toySword: 1
+  collectionCount: 8
+  toothBrush: 1
+  flashLight: 0
+  toySword: 0
   snack: 1
   familyPhoto: 1
   drink: 1
   pigBank: 1
   map: 1
-  teddyBear: 0
+  teddyBear: 1
   mimic: 1
-  lego: 0
+  lego: 1
   balloon: 0
   niceBoy: 0
-  darky: 0
-  drawing: 0
+  darky: 1
+  drawing: 1
   easterEgg: 0
