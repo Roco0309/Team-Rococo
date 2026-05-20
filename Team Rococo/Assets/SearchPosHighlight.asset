@@ -50,7 +50,7 @@ MonoBehaviour:
   overlayPatternSize: 0.15
   overlayPatternSoftness: 0.02
   overlayPatternRotation: 0
-  outline: 1
+  outline: 0.5
   outlineColor: {r: 0.03754252, g: 0.9245283, b: 0, a: 1}
   outlineColorStyle: 0
   outlineGradient:
