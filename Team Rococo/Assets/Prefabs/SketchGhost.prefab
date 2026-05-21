@@ -209,6 +209,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be8bfe97338676342871a66777dbdd24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  setting: {fileID: 0}
   player: {fileID: 0}
   playerHead: {fileID: 0}
   ingameManager: {fileID: 0}
@@ -373,7 +374,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: c154b2b9a0e690d49b7bd216aaa606e4, type: 3}
+  m_Resource: {fileID: 8300000, guid: be53e020e6a084d449eb50709e6f0a50, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -679,7 +680,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: c154b2b9a0e690d49b7bd216aaa606e4, type: 3}
+  m_Resource: {fileID: 8300000, guid: be53e020e6a084d449eb50709e6f0a50, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
