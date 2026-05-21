@@ -35,8 +35,8 @@ MonoBehaviour:
   drink: 0
   pigBank: 0
   map: 0
-  teddyBear: 1
-  mimic: 1
+  teddyBear: 0
+  mimic: 0
   lego: 0
   balloon: 0
   niceBoy: 0
