@@ -25,7 +25,7 @@ MonoBehaviour:
   vSync: 0
   anisotropicFiltering: 0
   nowTime: 0
-  day: 6
+  day: 1
   collectionCount: 0
   toothBrush: 0
   flashLight: 0
