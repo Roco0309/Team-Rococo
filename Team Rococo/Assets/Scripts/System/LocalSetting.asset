@@ -36,10 +36,10 @@ MonoBehaviour:
   pigBank: 0
   map: 0
   teddyBear: 0
-  mimic: 0
-  lego: 1
+  mimic: 1
+  lego: 0
   balloon: 0
   niceBoy: 0
   darky: 0
-  drawing: 1
+  drawing: 0
   easterEgg: 0
